@@ -1,7 +1,7 @@
 /*
  Text based Maze generation using Binary Tree algorithm
 
- Written by Yonathan Ferry Hendrawan March 2015
+ Written by Yonathan Ferry Hendrawan, March 2015
 
  This program creates text Maze using Binary Tree algorithm.
  */
@@ -10,13 +10,6 @@
 #include <stdlib.h>     // srand, rand
 #include <time.h>
 
-
-Cell Grid::getCell(int i, int j){
-    if(i < 0 || i > 10 || j < 0 || j > 10){
-       std::cout << "Mengakses elemen diluar index!" << std::endl;
-    }
-    return myCells[i * size + j];
-}
 
 void Grid::init(){
     for(int i = 0; i < size*2+1; i++)
