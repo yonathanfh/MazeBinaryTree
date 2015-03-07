@@ -1,3 +1,10 @@
+/*
+ Text based Maze generation using Binary Tree algorithm
+
+ Written by Yonathan Ferry Hendrawan March 2015
+
+ This program creates text Maze using Binary Tree algorithm.
+ */
 #ifndef CELL_H
 #define CELL_H
 
